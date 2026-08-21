@@ -1,0 +1,142 @@
+/* ตั้งค่าพื้นฐาน */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #333;
+}
+
+
+/* ส่วนหัว */
+
+header {
+    text-align: center;
+    background-color: #355e3b;
+    color: white;
+    padding: 30px;
+}
+
+
+/* เมนู */
+
+nav {
+    text-align: center;
+    background-color: #26452c;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+/* เนื้อหา */
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* หัวข้อ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+
+/* รูปภาพ */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #355e3b;
+}
+
+
+/* ตาราง */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #355e3b;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* ฟอร์ม */
+
+fieldset {
+    padding: 20px;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+/* ส่วนท้าย */
+
+footer {
+    text-align: center;
+    background-color: #355e3b;
+    color: white;
+    padding: 15px;
+}
+h1, h2, h3, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    text-align: center;
+}
+.food-list {
+    list-style: none;
+    padding-left: 0;
+}
