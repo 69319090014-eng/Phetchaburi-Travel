@@ -7,35 +7,29 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ติดต่อเรา | เที่ยวเพชรบุรี</title>
+    <title>ติดต่อเรา | Phetchaburi Tourism Website</title>
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <!-- หัวเว็บไซต์ -->
-
     <header>
 
-        <h1>📞 ติดต่อเรา</h1>
+        <h1>ติดต่อเรา</h1>
 
         <p>สอบถามข้อมูลเกี่ยวกับการท่องเที่ยวเพชรบุรี</p>
 
     </header>
 
 
-    <!-- เมนู -->
-
     <nav>
 
-        <a href="index.html">หน้าแรก</a> |
-
-        <a href="attractions.html">สถานที่ท่องเที่ยว</a> |
-
-        <a href="food.html">อาหาร</a> |
-
-        <a href="gallery.html">แกลเลอรี</a> |
-
+        <a href="index.html">หน้าแรก</a>
+        <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+        <a href="food.html">อาหาร</a>
+        <a href="gallery.html">แกลเลอรี</a>
         <a href="contact.html">ติดต่อเรา</a>
 
     </nav>
@@ -43,30 +37,120 @@
 
     <main>
 
-        <h2>📩 ติดต่อเรา</h2>
+        <h2>แบบฟอร์มติดต่อ</h2>
 
-        <p>
-            หากต้องการสอบถามข้อมูลเกี่ยวกับสถานที่ท่องเที่ยว
-            อาหาร หรือการเดินทาง สามารถติดต่อเราได้
-        </p>
+        <form>
+
+            <fieldset>
+
+                <legend>ข้อมูลผู้ติดต่อ</legend>
+
+                <label>ชื่อ-นามสกุล</label>
+                <br>
+
+                <input type="text" name="name">
+
+                <br><br>
 
 
-        <hr>
+                <label>อีเมล</label>
+                <br>
+
+                <input type="text" name="email">
+
+                <br><br>
 
 
-        <h2>📍 ข้อมูลติดต่อ</h2>
+                <p>เพศ</p>
 
-        <p>
-            <strong>จังหวัด:</strong> เพชรบุรี
-        </p>
+                <input type="radio" name="gender" value="male">
+                ชาย
 
-        <p>
-            <strong>โทรศัพท์:</strong> 08X-XXX-XXXX
-        </p>
+                <input type="radio" name="gender" value="female">
+                หญิง
 
-        <p>
-            <strong>Email:</strong> phetchaburi@example.com
-        </p>
+                <br><br>
+
+
+                <p>สิ่งที่สนใจ</p>
+
+                <input type="checkbox" name="interest" value="travel">
+                สถานที่ท่องเที่ยว
+
+                <br>
+
+                <input type="checkbox" name="interest" value="food">
+                อาหาร
+
+                <br>
+
+                <input type="checkbox" name="interest" value="nature">
+                ธรรมชาติ
+
+                <br><br>
+
+
+                <label>จังหวัด</label>
+                <br>
+
+                <select name="province">
+
+                    <option>-- กรุณาเลือกจังหวัด --</option>
+
+                    <optgroup label="ภาคกลาง">
+
+                        <option>เพชรบุรี</option>
+                        <option>กรุงเทพมหานคร</option>
+                        <option>ราชบุรี</option>
+
+                    </optgroup>
+
+                    <optgroup label="ภาคตะวันตก">
+
+                        <option>กาญจนบุรี</option>
+                        <option>ประจวบคีรีขันธ์</option>
+
+                    </optgroup>
+
+                </select>
+
+                <br><br>
+
+
+                <label>ข้อความ</label>
+                <br>
+
+                <textarea
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    placeholder="พิมพ์ข้อความ">
+                </textarea>
+
+                <br><br>
+
+
+                <button type="submit">
+                    ส่งข้อความ
+                </button>
+
+                <button type="reset">
+                    ล้างข้อมูล
+                </button>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 Phetchaburi Tourism Website</p>
+
+    </footer>
+
 </body>
 
 </html>
